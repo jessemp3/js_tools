@@ -20,7 +20,7 @@ Uma ferramenta CLI simples para gerar QR Codes e senhas seguras.
 2. Instale as dependências:
 
 ```bash
-npm install js_tools
+npm i qrcode-password-generator
 ```
 
 ## ⚙️ Configurações da Senha
