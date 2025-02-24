@@ -13,4 +13,8 @@ async function main() {
     prompt.start();
 }
 
-main()
+export { main };
+
+if (import.meta.url === process.argv[1]) {
+    main();
+}
