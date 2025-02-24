@@ -2,7 +2,7 @@
   "name": "qrcode-password-generator",
   "version": "1.0.1",
   "description": "Uma ferramenta CLI para gerar QR Codes e senhas seguras",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node --env-file=.env src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
     "prompt-sync": "^4.2.0"
   },
   "bin": {
-    "qrcode-pwd": "./index.js"
+    "qrcode-pwd": "./src/index.js"
   },
   "repository": {
     "type": "git",
