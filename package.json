@@ -2,6 +2,7 @@
   "name": "qrcode-password-generator",
   "version": "1.0.7",
   "description": "Uma ferramenta CLI para gerar QR Codes e senhas seguras",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "node --env-file=.env src/index.js",
